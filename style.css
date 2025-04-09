@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    z-index: 999;
+}
+header nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    position: fixed;
+}
+header nav .logo {
+    position: relative;
+    width: 150px;
+    height: 100%;
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+    align-content: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+header nav .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+header nav .nav-menu a {
+    color: blue;
+    text-decoration: none;
+    margin: 0px 20px 0 0px;
+    font-weight: bold;
+}
+header nav .nav-menu .contactLink {
+    color: white;
+    border: solid 1px blue;
+    background-color: blue;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+}
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
+.landingPage .container {
+    width: auto;
+    min-width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.landingPage .container img {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 20px;
+}
+.landingPage .container div {
+    width: 500px;
+}
+.container .insideContainer .superInside {
+    /* margin: 10px 0px 0px 0px; */
+    height: auto;
+    width: auto;
+}
+@media (max-width: 800px) {
+    .container .insideContainer .superInside {
+        margin: 10px 0px 0px 0px;
+        height: 100px;
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+}
+.icons  a{
+    color: blue;
+    margin: 10px 10px 10px 0px;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+
+}
+.qualification{
+    width: 100vw;
+    height: auto;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+.qualification div {
+    width: 300px;
+    height: 400px;
+    border: solid 1px blue;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.qualification div h1 {
+    position: absolute;
+    top: 50px;
+}
+.qualification div p{
+    width: 80%;
+    height: 50%;
+    text-indent: 50px;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+}
+.intertain {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.intertain div {
+    width: 800px;
+    height: 80vh;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.intertain div img {
+    max-width: 800px;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    min-width: 100px;
+    min-height: 200px;
+}
+.about-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: blue;
+}
+
+.about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.team {
+    padding: 3rem 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-member {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0px 20px blue;
+    max-width: 250px;
+    width: 250px;
+    height: 200px;
+    border: solid 1px blue;
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 100px;
+}
+
+.values {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.values-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.value-item {
+    background: #fff;
+    border: solid 1px blue;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0px 20px blue;
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .team-grid, .values-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-form {
+    background: gainsboro;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form h1 {
+    margin: 0 0 1rem;
+    color: #333;
+}
+
+.contact-form p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
+@media (width < 750px) {
+    .landingPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+    .landingPage .container {
+        width: auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .landingPage .container div {
+        width: 500px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .insideContainer {
+        position: relative;
+        bottom: 200px;
+    }
+    .container .insideContainer .superInside {
+        margin: 10px 0px 0px 0px;
+        height: auto;
+        width: auto;
+    }
+}
